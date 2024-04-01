@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# LogInSignUp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple login and signup form project.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Demo](#demo)
+- [Installation](#installation)
+- [Project Structure](#projectStructure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Technologies Used](#technologies)
+- [License](#license)
+- [Links](#links)
 
-### `npm start`
+## Demo <a id="demo"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view a live demo of the Nav Bar Module [here](https://rhamseyswork.github.io/logInSignUp/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+(GitHub Pages doesnt render properly)
 
-### `npm test`
+## Installation <a id="installation"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/rhamseyswork/logInSignUp.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure *Update* <a id="projectStructure"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navbar/
+├── dist/
+│ ├── public/
+│ ├── src/
+│ │ ├── Components /
+│ │ ├── Hooks /
+│ │ ├── Pages /
+│ │ │ ├── About.js
+│ │ │ ├── Contact.js
+│ │ │ ├── Portfolio.js
+│ │ │ └── Portfolio.js
+│ │ ├── App.js
+│ │ ├── index.js.js
+│ │ ├── reportWebVitals.js
+│ │ └── setupTests.js
+│ ├── package.json
+│ └── Dockerfile
+├── server/
+│ ├── Dockerfile
+│ ├── package.json
+│ └── server.js
+└── docker-compose.yml
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features<a id="features"></a>
 
-### `npm run eject`
+- Allows users to log in with existing credentials.
+- Allows new users to sign up with a new account.
+- Validates user input for login and signup forms.
+- Provides error messages for invalid input.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing <a id="contributing"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We welcome contributions from the community. If you'd like to contribute, please follow our contribution guidelines.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments <a id="acknowledgments"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We would like to thank the authors of the following libraries/tools for their contributions to this project:
 
-## Learn More
+Library/tool 1
+Library/tool 2
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used <a id="technologies"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- HTML
+- CSS
+- JavaScript
+- React
 
-### Code Splitting
+## License <a id="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License- see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Links <a id="links"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Buy Me a Coffee](https://www.buymeacoffee.com/rhamseys)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[To Top](#toTop)
